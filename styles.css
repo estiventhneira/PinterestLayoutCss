@@ -5,8 +5,9 @@ body {
 
 .padre {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 300px);
   gap: 10px;
+  justify-content: center;
 }
 
 figure img {
